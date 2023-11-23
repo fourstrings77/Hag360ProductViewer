@@ -1,0 +1,98 @@
+# Created by https://www.toptal.com/developers/gitignore/api/shopware,visualstudiocode,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=shopware,visualstudiocode,macos
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
+### Shopware ###
+# PhpStorm-Project
+.idea/
+
+# Cache and logs
+/var/cache/*
+/var/log/*
+!var/cache/clear_cache.sh
+!var/log/clear_cache.sh
+
+/web/cache
+!web/cache/.gitkeep
+
+/bin/*
+!bin/console
+/vendor/
+
+# User provided content
+/media/archive/
+/media/image/
+/media/music/
+/media/pdf/
+/media/temp/
+/media/unknown/
+/media/video/
+
+/files/documents/
+/files/downloads/
+
+# Caches/Proxies
+/tests/Shopware/TempFiles/
+/cache/
+
+# OS generated files
+.DS_Store?
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# SASS/SCSS cache
+.sass-cache/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/shopware,visualstudiocode,macos
