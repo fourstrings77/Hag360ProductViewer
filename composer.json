@@ -1,0 +1,18 @@
+{
+  "name": "fourstrings/threesixty-product-viewer",
+  "description": "360° Product Viewer",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Hag360ProductViewer\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Hag360ProductViewer\\Hag360ProductViewer",
+    "label": {
+      "de-DE": "360° Product Viewer",
+      "en-GB": "360° Product Viewer"
+    }
+  }
+}
