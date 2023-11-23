@@ -3,6 +3,11 @@
   "description": "360° Product Viewer",
   "type": "shopware-platform-plugin",
   "license": "MIT",
+  "require": {
+    "shopware/core": "^6.5.0.0",
+    "shopware/administration": "^6.5.0.0",
+    "shopware/storefront": "^6.5.0.0"
+  },
   "autoload": {
     "psr-4": {
       "Hag360ProductViewer\\": "src/"
