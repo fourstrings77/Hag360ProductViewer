@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([["hag360-product-viewer"],{6789:(e,r,s)=>{var t=s(6285);class a extends t.Z{init(){alert("test")}}window.PluginManager.register("ThreesixtyViewer",a,"data-threesixty-viewer")}},e=>{e.O(0,["vendor-node","vendor-shared"],(()=>{return r=6789,e(e.s=r);var r}));e.O()}]);
